@@ -1,4 +1,4 @@
-import type { ExpoConfig } from '@expo/config-types';
+import type { ExpoConfig } from 'expo/config';
 
 const appEnvironments = ['development', 'staging', 'production'] as const;
 

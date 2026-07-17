@@ -1,0 +1,7 @@
+.expo/
+.roo/
+.venv/
+coverage/
+dist/
+node_modules/
+package-lock.json

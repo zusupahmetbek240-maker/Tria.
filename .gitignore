@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+.npm-cache/
+.venv/
+.roo/
+repomix-output.xml
+*.tsbuildinfo
+.expo/
+.expo-shared/
+.env
+.env.*
+!.env.example
+android/
+ios/
+*.pem

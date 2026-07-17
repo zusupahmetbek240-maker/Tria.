@@ -1,0 +1,22 @@
+packages:
+  - .
+
+allowBuilds:
+  '@sentry/cli': true
+
+auditConfig:
+  ignoreGhsas:
+    - GHSA-w5hq-g745-h8pq
+
+minimumReleaseAgeExclude:
+  - '@expo/cli@57.0.9'
+  - '@expo/metro-config@57.0.6'
+  - '@expo/prebuild-config@57.0.8'
+  - expo-asset@57.0.6
+  - expo-constants@57.0.6
+  - expo-modules-autolinking@57.0.8
+  - expo-modules-core@57.0.6
+  - expo@57.0.7
+  - '@expo/ui@57.0.7'
+  - expo-router@57.0.7
+  - '@expo/metro-runtime@57.0.6'

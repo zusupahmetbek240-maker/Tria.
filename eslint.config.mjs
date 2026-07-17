@@ -29,6 +29,20 @@ export default tseslint.config(
     },
   },
   {
+    files: ['scripts/**/*.cjs'],
+    languageOptions: {
+      sourceType: 'commonjs',
+      globals: {
+        console: 'readonly',
+        require: 'readonly',
+        process: 'readonly',
+      },
+    },
+    rules: {
+      '@typescript-eslint/no-require-imports': 'off',
+    },
+  },
+  {
     files: ['src/domain/**/*.{ts,tsx}'],
     rules: {
       'no-restricted-imports': [

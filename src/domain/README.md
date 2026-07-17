@@ -1,6 +1,6 @@
 # Domain Layer
 
-The domain contains the language and rules of Tria: athlete goals, planned and
+The domain contains the language and rules for Tria.: athlete goals, planned and
 completed workouts, readiness, equipment wear, and AI change drafts. Modules in
 this directory are pure TypeScript and have no dependency on Expo, React,
 Supabase, storage, or network services.

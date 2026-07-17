@@ -2,8 +2,9 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 
 import { AppProviders } from '@/composition/app-providers';
+import { withObservability } from '@/composition/observability';
 
-export default function RootLayout() {
+function RootLayout() {
   return (
     <AppProviders>
       <StatusBar style="dark" />
@@ -11,3 +12,5 @@ export default function RootLayout() {
     </AppProviders>
   );
 }
+
+export default withObservability(RootLayout);

@@ -1,8 +1,8 @@
-# Tria Agent Guide
+# Tria. Agent Guide
 
 ## Purpose
 
-Build Tria as a reliable Expo application for adaptive endurance training. Make
+Build the Tria. Expo application as a reliable product for adaptive endurance training. Make
 focused changes that preserve the architecture documented in `docs/ARCHITECTURE.md`.
 
 ## Architecture
@@ -54,6 +54,6 @@ For every feature, add work in this order:
 After code changes, run:
 
 ```powershell
-npm.cmd run verify
-npm.cmd run doctor
+pnpm run verify
+pnpm run doctor
 ```

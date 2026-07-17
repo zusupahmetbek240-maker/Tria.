@@ -1,8 +1,8 @@
-# Tria Architecture
+# Tria. Architecture
 
 ## Goal
 
-Tria is a mobile application for adaptive endurance training. The codebase is
+Tria. is a mobile application for adaptive endurance training. The codebase is
 organized to keep product rules independent from React Native, Expo, Supabase,
 and AI providers.
 
@@ -60,10 +60,13 @@ separate records. Every external mutation must be idempotent.
 Before merging a feature, run:
 
 ```powershell
-npm.cmd run verify
-npm.cmd run doctor
+pnpm run verify
+pnpm run doctor
 ```
 
 Then exercise its critical scenario on a physical Android device. A feature is
 not complete until its success, empty, loading, failure, and retry states are
 intentional.
+
+CI and the local pre-commit hook both use the same verification path so local
+checks and repository checks stay aligned.
